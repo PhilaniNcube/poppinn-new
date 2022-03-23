@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const Bryanston = () => {
@@ -80,10 +81,11 @@ const Bryanston = () => {
               </svg>
             </div>
           </div>
-
-          <button className="bg-red-500 mt-4 text-white hover:bg-red-600 font-montMedium text-lg uppercase px-4 py-2 rounded-full shadow-md hover:shadow-sm">
-            View Property
-          </button>
+          <Link href="/properties/bryanston" passHref>
+            <button className="bg-red-500 mt-4 text-white hover:bg-red-600 font-montMedium text-lg uppercase px-4 py-2 rounded-full shadow-md hover:shadow-sm">
+              View Property
+            </button>
+          </Link>
         </div>
       </div>
     </div>
