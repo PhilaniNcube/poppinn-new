@@ -21,7 +21,7 @@ const HomeSectionOne = () => {
         </p>
 
         <p className="font-montBold text-center text-lg md:text-xl mt-2">
-          “Popp Inn” would be delighted to host you!
+          “Pop Inn” would be delighted to host you!
         </p>
       </div>
       <div className="w-full grid grid-cols-3 gap-2 md:gap-6 mt-4 mb-12">
@@ -40,7 +40,7 @@ const HomeSectionOne = () => {
             width={1920}
             height={1280}
             alt="kitchen"
-            src="/images/kitchen-small-2.jpg"
+            src="/images/bedroom-blue.jpg"
           />
         </div>
         <div className="aspect-video">
@@ -49,7 +49,7 @@ const HomeSectionOne = () => {
             width={1920}
             height={1280}
             alt="pool"
-            src="/images/pool.jpg"
+            src="/images/building.jpg"
           />
         </div>
       </div>

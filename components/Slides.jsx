@@ -143,7 +143,7 @@ const Slides = () => {
                         Full Bathroom
                       </h2>
                       <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5 lg:leading-6 lg:mt-12 text-white">
-                        Equipped with a shower, bath-tup and toilet
+                        2 bathrooms for convinience
                       </h3>
                     </div>
                   </div>
@@ -162,7 +162,7 @@ const Slides = () => {
                         Located In Bryanston
                       </h2>
                       <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5 lg:leading-6 lg:mt-12 text-white">
-                        Minimal Interior
+                        Great neighbourhood
                       </h3>
                     </div>
                   </div>
@@ -172,16 +172,16 @@ const Slides = () => {
                     <Image
                       width={5184}
                       height={3456}
-                      src="/images/building.jpg"
+                      src="/images/pool.jpg"
                       alt="black chair and white table"
                       className="object-cover h-full w-full aspect-video"
                     />
                     <div className="bg-gray-800 bg-opacity-30 flex flex-col items-start justify-center absolute w-full h-full px-12 md:px-24">
                       <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-[6rem] font-montBold leading-5 md:leading-4 text-white">
-                        Upper Floor View
+                        Pool
                       </h2>
                       <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5 lg:leading-6 lg:mt-12 text-white">
-                        Balcony access with a view of the neighbourhood
+                        Pool access
                       </h3>
                     </div>
                   </div>

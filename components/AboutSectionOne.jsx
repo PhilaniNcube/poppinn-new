@@ -18,7 +18,7 @@ const AboutSectionOne = () => {
         media apps to advertise our listings.
       </p>
       <p className="text-base mt-4 text-center">
-        Our second area of focus is the customers; we ensure that whenever our
+        Our second area of focus is our customers. We ensure that whenever our
         customers book a stay at any of our properties they leave having
         experienced world-class hospitality and exceptional service. We love to
         add a personal touch so that the customer feels that all of their needs
