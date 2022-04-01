@@ -40,7 +40,7 @@ const HomeSectionOne = () => {
             width={1920}
             height={1280}
             alt="kitchen"
-            src="/images/bedroom-blue.jpg"
+            src="/images/bedroom-yellow.jpg"
           />
         </div>
         <div className="aspect-video">
