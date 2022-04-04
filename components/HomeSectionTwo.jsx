@@ -13,7 +13,7 @@ const HomeSectionTwo = () => {
           </h2>
           <p className="text-base text-gray-700 mt-3">
             Are you looking to make your property work for you? We can can help
-            manage you property for either long term or short term stays.
+            manage your property for either long term or short term stays.
           </p>
           <button className="bg-red-500 mt-4 text-white hover:bg-red-600 font-montMedium text-lg uppercase px-4 py-2 rounded-full shadow-md hover:shadow-sm">
             Contact Us

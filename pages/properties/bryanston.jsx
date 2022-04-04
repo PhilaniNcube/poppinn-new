@@ -99,7 +99,7 @@ const Bryanston = () => {
             passHref
           >
             <button className="rounded-lg bg-red-500 py-2 w-full px-4 h-12 text-sm text-white hover:bg-gray-400">
-              Book on AirBnB
+              Book on airBnB
             </button>
           </Link>
         </div>

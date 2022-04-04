@@ -82,7 +82,7 @@ const Slides = () => {
                     />
                     <div className="bg-gray-800 bg-opacity-30 flex flex-col items-start justify-center absolute w-full h-full px-12 md:px-24">
                       <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-[6rem] font-montBold leading-5 md:leading-4 text-white">
-                        Comfort & Style
+                        Comfort and Style
                       </h2>
                       <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5 lg:leading-6 lg:mt-12 text-white">
                         Built for a relaxing stay
@@ -104,7 +104,7 @@ const Slides = () => {
                         Comfortable Bedroom
                       </h2>
                       <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5 lg:leading-6 lg:mt-12 text-white">
-                        Perfect for a good nights sleep
+                        Perfect for a good nights' sleep
                       </h3>
                     </div>
                   </div>
@@ -120,7 +120,7 @@ const Slides = () => {
                     />
                     <div className="bg-gray-800 bg-opacity-30 flex flex-col items-start justify-center absolute w-full h-full px-12 md:px-24">
                       <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-[6rem] font-montBold leading-5 md:leading-4 text-white">
-                        Fully Equiped Kitchen
+                        Fully Equipped Kitchen
                       </h2>
                       <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5 lg:leading-6 lg:mt-12 text-white">
                         All the kitchen appliances and utensils you need for a
@@ -143,7 +143,7 @@ const Slides = () => {
                         Full Bathroom
                       </h2>
                       <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5 lg:leading-6 lg:mt-12 text-white">
-                        2 bathrooms for convinience
+                        Two bathrooms for convinience
                       </h3>
                     </div>
                   </div>

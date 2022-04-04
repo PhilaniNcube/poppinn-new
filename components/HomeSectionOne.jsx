@@ -10,14 +10,14 @@ const HomeSectionOne = () => {
       <div className="w-full px-8 md:px-20 mt-12 text-gray-700">
         <p className="text-base text-center">
           This modern apartment is conveniently located close to popular
-          shopping malls like Bryanston & Morningside Shopping Centre as well as
-          Nicolway. It’s a mere 8km from Sandton City & the Sandton Gautrain
-          Station.
+          shopping malls like Bryanston and Morningside Shopping Centre as well
+          as Nicolway. It’s a mere 8km from Sandton City and the Sandton
+          Gautrain Station.
         </p>
         <p className="text-base text-center mt-4">
-          Thanks to the uncapped WiFi, you can enjoy Netflix, Showmax, YouTube
-          and other streaming sites either from the comfort of the lounge or the
-          main bedroom.
+          Thanks to uncapped WiFi, kikcback and enjoy your favourite shows on
+          Nteflix, Showmax, YouTube and other streaming sites from the comfort
+          of the lounge or the main bedroom.
         </p>
 
         <p className="font-montBold text-center text-lg md:text-xl mt-2">
