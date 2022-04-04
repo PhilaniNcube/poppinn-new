@@ -11,9 +11,9 @@ const AboutSectionOne = () => {
         passionate about people and the leisure industry.
       </p>
       <p className="text-base mt-4 text-center">
-        We specialize in two areas, helping investors earn a return on their
+        We specialise in two areas, helping investors earn a return on their
         properties by managing the property and advertising it to seek clients
-        for short-term to long-term leisure or business stays. We utilize very
+        for short-term to long-term leisure or business stays. We utilise very
         effective platforms like AirBnB, Bookings.com and various other social
         media apps to advertise our listings.
       </p>
