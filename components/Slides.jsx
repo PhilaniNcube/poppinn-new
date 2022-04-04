@@ -143,11 +143,7 @@ const Slides = () => {
                         Full Bathroom
                       </h2>
                       <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5 lg:leading-6 lg:mt-12 text-white">
-<<<<<<< HEAD
-                        Two bathrooms for convinience
-=======
                         2 bathrooms for convenience
->>>>>>> 533ff77324596b43f1f7b839d8e587d334539b6b
                       </h3>
                     </div>
                   </div>
