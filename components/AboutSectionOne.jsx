@@ -7,7 +7,7 @@ const AboutSectionOne = () => {
         Who <span className="font-montLight">we are</span>
       </h2>
       <p className="text-base mt-4 text-center">
-        Popp Inn is a dynamic upmarket property management company that is
+        Popp Inn Property is a dynamic upmarket property management company that is
         passionate about people and the leisure industry.
       </p>
       <p className="text-base mt-4 text-center">
