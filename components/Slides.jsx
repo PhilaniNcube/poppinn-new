@@ -104,7 +104,7 @@ const Slides = () => {
                         Comfortable Bedroom
                       </h2>
                       <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5 lg:leading-6 lg:mt-12 text-white">
-                        Perfect for a good nights' sleep
+                        Perfect for a good nights&apos; sleep
                       </h3>
                     </div>
                   </div>
