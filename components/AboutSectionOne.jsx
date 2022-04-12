@@ -7,13 +7,13 @@ const AboutSectionOne = () => {
         Who <span className="font-montLight">we are</span>
       </h2>
       <p className="text-base mt-4 text-center">
-        Popp Inn Property is a dynamic upmarket property management company that is
-        passionate about people and the leisure industry.
+        Popp Inn Property is a dynamic upmarket property management company that
+        is passionate about people and the leisure industry.
       </p>
       <p className="text-base mt-4 text-center">
         We specialise in two areas, helping investors earn a return on their
         properties by managing the property and advertising it to seek clients
-        for short-term to long-term leisure or business stays. We utilise very
+        for short term to long term leisure or business stays. We utilise very
         effective platforms like Airbnb, Bookings.com and various other social
         media apps to advertise our listings.
       </p>
