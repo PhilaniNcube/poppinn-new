@@ -5,7 +5,7 @@ const ContactForm = () => {
   return (
     <div className="my-12">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-2">
-        <div className="w-full flex justify-center">
+        <div className="w-full flex flex-col items-start justify-center">
           <div className="aspect-square">
             <Image
               src="/images/sol.jpg"
@@ -15,6 +15,9 @@ const ContactForm = () => {
               height={500}
             />
           </div>
+          <h2 className="text-xl">Sol Bokwe</h2>
+          <h2 className="text-lg">Popp Inn Property </h2>
+          <h2 className="text-lg">Managing Partner </h2>
         </div>
         <div className="w-full px-3 py-8">
           <h2>Send us a message</h2>
