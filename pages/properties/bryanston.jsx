@@ -14,7 +14,7 @@ const Bryanston = () => {
     <Fragment>
       <div className="max-w-7xl mx-auto px-6 md:px-4 lg:px-0 my-4">
         <h1 className="font-montBold text-xl md:text-2xl mb-2">
-          “Pop Inn” modern apartment in heart of Bryanston
+          “Popp Inn” modern apartment in heart of Bryanston
         </h1>
         <div className="w-full grid grid-cols-1 md:grid-cols-2 overflow-hidden gap-2">
           <div className="w-full rounded-l">
@@ -99,14 +99,14 @@ const Bryanston = () => {
             passHref
           >
             <button className="rounded-lg bg-red-500 py-2 w-full px-4 h-12 text-sm text-white hover:bg-gray-400">
-              Book on airBnB
+              Book on Airbnb
             </button>
           </Link>
         </div>
 
         <div className="px-6">
           <h2 className="font-montBold mb-4 text-2xl text-red-500">
-            Contact Us To Book A Room
+            Contact Us To Book A Stay
           </h2>
           <form
             action="https://api.web3forms.com/submit"
@@ -116,7 +116,7 @@ const Bryanston = () => {
             <input
               type="hidden"
               name="access_key"
-              value={process.env.WEBFORMS_API}
+              value={process.env.NEXT_PUBLIC_WEBFORMS_API}
             ></input>
 
             <input

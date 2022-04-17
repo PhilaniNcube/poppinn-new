@@ -26,10 +26,7 @@ const Navbar = () => {
             <a>About Us</a>
           </Link>
 
-          <Link
-            href="https://www.booking.com/hotel/za/pop-inn-modern-apartment-in-heart-of-bryanston.en-gb.html?aid=1258472&label=Share-lfWNCr%401630515174"
-            passHref
-          >
+          <Link href="/properties/bryanston" passHref>
             <button className="text-white font-montBold text-md bg-red-500 px-4 py-2 rounded-full">
               Book Now
             </button>
@@ -106,10 +103,7 @@ const Navbar = () => {
                 About Us
               </a>
             </Link>
-            <Link
-              href="https://www.booking.com/hotel/za/pop-inn-modern-apartment-in-heart-of-bryanston.en-gb.html?aid=1258472&label=Share-lfWNCr%401630515174"
-              passHref
-            >
+            <Link href="/properties/bryanston" passHref>
               <a className="block rounded-lg bg-red-500 py-2 px-4 text-sm text-white hover:bg-gray-400">
                 Book Now
               </a>
