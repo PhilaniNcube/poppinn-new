@@ -16,7 +16,7 @@ const HomeSectionOne = () => {
         </p>
         <p className="text-base text-center mt-4">
           Thanks to uncapped WiFi, kickback and enjoy your favourite shows on
-          Nteflix, Showmax, YouTube and other streaming sites from the comfort
+          Netflix, Showmax, YouTube and other streaming sites from the comfort
           of the lounge or the main bedroom.
         </p>
 
