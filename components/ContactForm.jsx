@@ -40,7 +40,7 @@ const ContactForm = () => {
             <input
               type="hidden"
               name="access_key"
-              value={process.env.NEXT_PUBLIC_WEBFORMS_API}
+              value={process.env.NEXT_PUBLIC_INFO_WEBFORMS_API}
             ></input>
 
             <input type="hidden" name="subject" value="New Enquiry"></input>
