@@ -1,0 +1,6 @@
+.circle {
+  min-height: 80vh;
+  clip-path: ellipse(78% 46% at 81% 50%);
+  background-image: url('/images/villa.jpg');
+  @apply bg-center;
+}
