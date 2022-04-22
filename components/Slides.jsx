@@ -62,7 +62,7 @@ const Slides = () => {
                       className="object-cover h-full w-full aspect-video"
                     />
                     <div className="bg-gray-800 bg-opacity-30 flex flex-col items-start justify-center absolute w-full h-full px-12 md:px-24">
-                      <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-[6rem] font-montBold leading-5 md:leading-4 text-white">
+                      <h2 className="text-md sm:text-3xl md:text-4xl lg:text-[6rem] font-montBold  md:leading-4 text-white">
                         Luxury Apartment
                       </h2>
                       <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5 lg:leading-6 lg:mt-12 text-white">
@@ -81,7 +81,7 @@ const Slides = () => {
                       className="object-cover h-full w-full aspect-video"
                     />
                     <div className="bg-gray-800 bg-opacity-30 flex flex-col items-start justify-center absolute w-full h-full px-12 md:px-24">
-                      <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-[6rem] font-montBold leading-5 md:leading-4 text-white">
+                      <h2 className="text-md sm:text-3xl md:text-4xl lg:text-[6rem] font-montBold  md:leading-4 text-white">
                         Comfort and Style
                       </h2>
                       <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5 lg:leading-6 lg:mt-12 text-white">
@@ -100,7 +100,7 @@ const Slides = () => {
                       className="object-cover h-full w-full aspect-video"
                     />
                     <div className="bg-gray-800 bg-opacity-30 flex flex-col items-start justify-center absolute w-full h-full px-12 md:px-24">
-                      <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-[6rem] font-montBold leading-5 md:leading-4 text-white">
+                      <h2 className="text-md sm:text-3xl md:text-4xl lg:text-[6rem] font-montBold  md:leading-4 text-white">
                         Comfortable Bedroom
                       </h2>
                       <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5 lg:leading-6 lg:mt-12 text-white">
@@ -119,7 +119,7 @@ const Slides = () => {
                       className="object-cover h-full w-full aspect-video"
                     />
                     <div className="bg-gray-800 bg-opacity-30 flex flex-col items-start justify-center absolute w-full h-full px-12 md:px-24">
-                      <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-[6rem] font-montBold leading-5 md:leading-4 text-white">
+                      <h2 className="text-md sm:text-3xl md:text-4xl lg:text-[6rem] font-montBold  md:leading-4 text-white">
                         Fully Equipped Kitchen
                       </h2>
                       <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5 lg:leading-6 lg:mt-12 text-white">
@@ -139,7 +139,7 @@ const Slides = () => {
                       className="object-cover h-full w-full aspect-video"
                     />
                     <div className="bg-gray-800 bg-opacity-40 flex flex-col items-start justify-center absolute w-full h-full px-12 md:px-24">
-                      <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-[6rem] font-montBold leading-5 md:leading-4 text-white">
+                      <h2 className="text-md sm:text-3xl md:text-4xl lg:text-[6rem] font-montBold  md:leading-4 text-white">
                         Full Bathroom
                       </h2>
                       <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5 lg:leading-6 lg:mt-12 text-white">
@@ -158,7 +158,7 @@ const Slides = () => {
                       className="object-cover h-full w-full aspect-video"
                     />
                     <div className="bg-gray-800 bg-opacity-30 flex flex-col items-start justify-center absolute w-full h-full px-12 md:px-24">
-                      <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-[6rem] font-montBold leading-5 md:leading-4 text-white">
+                      <h2 className="text-md sm:text-3xl md:text-4xl lg:text-[6rem] font-montBold  md:leading-4 text-white">
                         Located in Bryanston
                       </h2>
                       <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5 lg:leading-6 lg:mt-12 text-white">
@@ -177,7 +177,7 @@ const Slides = () => {
                       className="object-cover h-full w-full aspect-video"
                     />
                     <div className="bg-gray-800 bg-opacity-30 flex flex-col items-start justify-center absolute w-full h-full px-12 md:px-24">
-                      <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-[6rem] font-montBold leading-5 md:leading-4 text-white">
+                      <h2 className="text-md sm:text-3xl md:text-4xl lg:text-[6rem] font-montBold  md:leading-4 text-white">
                         Pool
                       </h2>
                       <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5 lg:leading-6 lg:mt-12 text-white">
