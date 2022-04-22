@@ -17,6 +17,7 @@ const Travel = () => {
   const [age, setAge] = useState(null);
   const [city, setCity] = useState('');
   const [internationalTravel, setInternationalTravel] = useState(false);
+  const [passport, setPassport] = useState(false);
   const [preferences, setPreferences] = useState('');
   const [holidayType, setHolidayType] = useState('');
   const [dreamDestination, setDreamDestination] = useState('');
@@ -40,6 +41,7 @@ const Travel = () => {
         preferences: preferences,
         holidayType: holidayType,
         dreamDestination: dreamDestination,
+        passport: passport,
       },
     ]);
 
@@ -85,12 +87,56 @@ const Travel = () => {
               </h2>
             </div>
             <div className="w-full object-cover mt-8 lg:mt-0 rounded-3xl relative">
-              <img
-                className="w-full h-full object-contain"
-                src="https://i.ibb.co/dLsYS9C/Group-1.png"
-                alt="Collage of images"
-                role="img"
-              />
+              <div className="2xl:px-20 lg:px-0 px-4 flex flex-wrap items-start ">
+                <div className="ml-6">
+                  <div className="lg:flex ">
+                    <div>
+                      <img
+                        tabIndex={0}
+                        src="/images/travel.jpg"
+                        alt="group of friends"
+                        className="w-96 h-60 rounded-lg object-cover"
+                      />
+                    </div>
+                    <div>
+                      <div className="flex ml-6">
+                        <img
+                          tabIndex={0}
+                          src="/images/pier.jpeg"
+                          className="w-24 h-24 object-cover aspect-square rounded-lg"
+                          alt="man"
+                        />
+                        <img
+                          tabIndex={0}
+                          src="/images/rest-2.jpeg"
+                          className="w-20 h-24 object-cover rounded-lg ml-6"
+                          alt="woman"
+                        />
+                      </div>
+                      <img
+                        tabIndex={0}
+                        src="/images/van-gough.jpeg"
+                        alt="boy with blonde hair"
+                        className="ml-6 mt-6 w-48 object-cover h-32 rounded-lg"
+                      />
+                    </div>
+                  </div>
+                  <div className="mt-6 flex">
+                    <img
+                      tabIndex={0}
+                      className="w-48 h-48 object-cover rounded-lg"
+                      src="/images/beach.jpeg"
+                      alt="beach"
+                    />
+                    <img
+                      tabIndex={0}
+                      className="w-72 h-56 rounded-lg ml-6 object-cover"
+                      src="/images/greece.jpeg"
+                      alt="greece"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -99,7 +145,7 @@ const Travel = () => {
       <div className="max-w-7xl mx-auto mt-24 mb-12">
         <h3 className="font-montBold text-2xl text-gray-800">
           {' '}
-          Enter your details into our database for exclusive offers
+          Enter your details for exclusive offers
         </h3>
 
         <form className="w-full px-6 lg:px-0" onSubmit={handleSubmit}>
@@ -260,6 +306,38 @@ const Travel = () => {
                 onChange={(e) => setDreamDestination(e.target.value)}
                 className="w-full p-3 mt-4 border border-gray-300 rounded outline-none focus:bg-gray-50"
               />
+            </div>
+            <div className="mx-auto justify-center space-x-4 h-full pt-7 w-full flex items-center">
+              <p className="text-base font-medium leading-none text-gray-800">
+                Do you have a passport?
+              </p>
+
+              {/* Code block starts */}
+              <div className="cursor-pointer my-5 rounded-full bg-indigo-700 relative shadow-sm">
+                <input
+                  checked={passport}
+                  onChange={() => setPassport(!passport)}
+                  type="checkbox"
+                  name="toggle"
+                  id="toggle2"
+                  className="focus:outline-none checkbox w-6 h-6 rounded-full bg-white absolute shadow-sm appearance-none cursor-pointer border border-transparent top-0 bottom-0 m-auto"
+                />
+                <label
+                  htmlFor="toggle2"
+                  className="toggle-label dark:bg-gray-700 block w-12 h-4 overflow-hidden rounded-full bg-gray-300 cursor-pointer"
+                />
+              </div>
+              {/* Code block ends */}
+              <style>
+                {`.checkbox:checked {
+                        /* Apply class right-0*/
+                        right: 0;
+                    }
+                    .checkbox:checked + .toggle-label {
+                        /* Apply class bg-indigo-700 */
+                        background-color: #4c51bf;
+                    }`}
+              </style>
             </div>
           </div>
 
