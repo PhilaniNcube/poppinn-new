@@ -62,24 +62,25 @@ const Travel = () => {
                 </h1>
               </div>
               <h2 className="text-sm tracking-wide leading-7 lg:w-10/12 mt-2 lg:mt-6 text-gray-700">
-                Have you been meaning to book that flight and kickback in the
-                clouds while the pilot gets you to your dream destination? Who
-                doesn’t want to go shopping in Dubai or sip cocktails on an
-                exotic island? Maybe you fancy a party in Ibiza or feel like
-                capturing an instagrammable moment on the Bali Swing right after
-                a floating breakfast?
+                Have you been meaning to book that flight? Do you day dream
+                about kicking it back in the clouds while the pilot gets you to
+                your dream destination? Who doesn’t want to go on a shopping
+                spree in Dubai or sip cocktails on an exotic island? Maybe you
+                fancy a party in Ibiza or look forward to capturing an
+                instagrammable moment on the Bali Swing right after a floating
+                breakfast?
               </h2>
               <h2 className="text-sm tracking-wide leading-7 lg:w-10/12 mt-2 lg:mt-6 text-gray-700">
-                That’s where we come in!
+                Whatever it is, we’ve got you!
               </h2>
               <h2 className="text-sm tracking-wide leading-7 lg:w-10/12 mt-2 lg:mt-6 text-gray-700">
-                We help you “Popp Inn” to any city in the world and get your
-                unforgettable experience of a lifetime.
+                We help you “Popp Inn” to any destination in the world and give
+                you an unforgettable experience of a lifetime.
               </h2>
               <h2 className="text-sm tracking-wide leading-7 lg:w-10/12 mt-2 lg:mt-6 text-gray-700">
-                We are not a travel agency; think of us as Travel Curators! If
+                We are not a travel agency. Think of us as Travel Curators! If
                 you would like to receive information on our travel innovations
-                and packages locally and around the world, please fill in the
+                and packages locally and/or around the world, please fill in the
                 form below so we can keep you posted!
               </h2>
             </div>
