@@ -47,7 +47,7 @@ const Travel = () => {
 
     console.log({ data, error });
     setLoading(false);
-    router.push('/');
+    router.push('/see-you');
   };
 
   return (
