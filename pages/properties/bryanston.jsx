@@ -14,7 +14,7 @@ const Bryanston = () => {
     <Fragment>
       <div className="max-w-7xl mx-auto px-6 md:px-4 lg:px-0 my-4">
         <h1 className="font-montBold text-xl md:text-2xl mb-2">
-          “Popp Inn” modern apartment in heart the of Bryanston
+          “Popp Inn” modern apartment in the heart of Bryanston
         </h1>
         <div className="w-full grid grid-cols-1 md:grid-cols-2 overflow-hidden gap-2">
           <div className="w-full rounded-l">

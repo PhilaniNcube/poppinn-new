@@ -82,12 +82,6 @@ const Travel = () => {
                 and packages locally and around the world, please fill in the
                 form below so we can keep you posted!
               </h2>
-              <div className="my-4 flex space-x-2 text-3xl w-[fit-content] items-center p-1 border-4 border-blue-600 rounded-lg">
-                <span className="text-gray-800 font-montMedium">
-                  Keep Me Posted!
-                </span>
-                <BsFillArrowDownSquareFill className="text-6xl text-blue-600" />
-              </div>
             </div>
             <div className="w-full object-cover mt-8 lg:mt-0 rounded-3xl relative">
               <img
@@ -104,7 +98,7 @@ const Travel = () => {
       <div className="max-w-7xl mx-auto mt-24 mb-12">
         <h3 className="font-montBold text-2xl text-gray-800">
           {' '}
-          Enter Your Details Into Our Database For Exclusive Offers
+          Enter your details into our database for exclusive offers
         </h3>
 
         <form className="w-full px-6 lg:px-0" onSubmit={handleSubmit}>
@@ -180,6 +174,22 @@ const Travel = () => {
                 onChange={(e) => setCity(e.target.value)}
                 className="w-full p-3 mt-4 border border-gray-300 rounded outline-none focus:bg-gray-50"
               />
+            </div>{' '}
+            <div>
+              <p className="text-base font-medium leading-none text-gray-800">
+                Gender
+              </p>
+              <select
+                type="text"
+                required
+                value={gender}
+                onChange={(e) => setGender(e.target.value)}
+                className="w-full p-3 mt-4 border border-gray-300 rounded outline-none focus:bg-gray-50"
+              >
+                <option value="">Select gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
             </div>
             <div>
               <p className="text-base font-medium leading-none text-gray-800">
@@ -225,22 +235,6 @@ const Travel = () => {
             </div>
             <div>
               <p className="text-base font-medium leading-none text-gray-800">
-                Gender
-              </p>
-              <select
-                type="text"
-                required
-                value={gender}
-                onChange={(e) => setGender(e.target.value)}
-                className="w-full p-3 mt-4 border border-gray-300 rounded outline-none focus:bg-gray-50"
-              >
-                <option value="">Select gender</option>
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-              </select>
-            </div>
-            <div>
-              <p className="text-base font-medium leading-none text-gray-800">
                 Have you travelled internationally before?
               </p>
               <select
@@ -273,7 +267,7 @@ const Travel = () => {
             disabled={loading}
             className="bg-sky-700 text-white text-base font-montMedium mt-4 px-6 py-2 w-[180px] rounded-md"
           >
-            {loading ? 'Loading...' : 'Save'}
+            {loading ? 'Loading...' : 'Keep Me Posted'}
           </button>
         </form>
       </div>
