@@ -1,8 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import React, { Fragment, useState } from 'react';
+import React, { Fragment } from 'react';
 export default function IndexPage() {
-  const [show, setShow] = useState(null);
-
   return (
     <Fragment>
       <div className="relative overflow-y-hidden h-screen">
