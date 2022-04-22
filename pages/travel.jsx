@@ -43,6 +43,8 @@ const Travel = () => {
       },
     ]);
 
+    alert('Thank you for subscribing! We will be in touch.');
+
     console.log({ data, error });
     setLoading(false);
     router.push('/');
@@ -56,7 +58,7 @@ const Travel = () => {
             <div className="xl:mt-8">
               <div className="text-3xl lg:text-6xl xl:text-8xl text-gray-800 tracking-1px font-extrabold">
                 <h1 className="lg:text-7xl leading-tight mt-3 font-montBold lg:mt-4">
-                  Howdie Globetrotter!
+                  Hey there Globetrotter!
                 </h1>
               </div>
               <h2 className="text-sm tracking-wide leading-7 lg:w-10/12 mt-2 lg:mt-6 text-gray-700">
@@ -217,7 +219,7 @@ const Travel = () => {
                 <option value="Cruise">Cruise</option>
                 <option value="Self-drive Roadtrip">Self-drive Roadtrip</option>
                 <option value="Concert">Concert</option>
-                <option value="Short">Short</option>
+                <option value="Sport">Sport</option>
                 <option value="All Of The Above">All Of The Above</option>
               </select>
             </div>

@@ -1,19 +1,32 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useState } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
+
+  const router = useRouter();
+
+  console.log(router);
 
   return (
     <nav className="">
       {/*Desktop Nav */}
       <div className="hidden max-w-7xl mx-auto md:flex md:px-4 lg:px-0 justify-between py-2 items-center">
-        <img
-          src="/images/logo.svg"
-          alt="Popp Inn"
-          className="h-20 object-cover"
-        />
+        {router.asPath === '/travel' ? (
+          <img
+            src="/images/travel.svg"
+            alt="Popp Inn"
+            className="h-20 object-cover"
+          />
+        ) : (
+          <img
+            src="/images/logo.svg"
+            alt="Popp Inn"
+            className="h-20 object-cover"
+          />
+        )}
 
         <nav className="flex text-base text-gray-700 space-x-3 items-center">
           <Link href="/">
