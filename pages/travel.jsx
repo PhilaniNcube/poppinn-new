@@ -87,53 +87,46 @@ const Travel = () => {
               </h2>
             </div>
             <div className="w-full object-cover mt-8 lg:mt-0 rounded-3xl relative">
-              <div className="2xl:px-20 lg:px-0 px-4 flex flex-wrap items-start ">
-                <div className="ml-6">
-                  <div className="lg:flex ">
+              <div className="lg:px-0 flex flex-wrap items-start ">
+                <div className="">
+                  <div className="grid grid-cols-2 gap-3">
                     <div>
                       <img
                         tabIndex={0}
-                        src="/images/travel.jpg"
-                        alt="group of friends"
-                        className="w-96 h-60 rounded-lg object-cover"
+                        src="/images/ny_sol.PNG"
+                        alt="New York"
+                        className="lg:h-82 rounded-lg object-cover"
+                      />
+                      <img
+                        tabIndex={0}
+                        src="/images/yellow.jpeg"
+                        className="w-full h-96 object-cover rounded-lg mt-2"
+                        alt="woman"
                       />
                     </div>
                     <div>
-                      <div className="flex ml-6">
+                      <div className="grid gap-2">
                         <img
                           tabIndex={0}
-                          src="/images/pier.jpeg"
-                          className="w-24 h-24 object-cover aspect-square rounded-lg"
-                          alt="man"
-                        />
-                        <img
-                          tabIndex={0}
-                          src="/images/rest-2.jpeg"
-                          className="w-20 h-24 object-cover rounded-lg ml-6"
-                          alt="woman"
+                          className="h-56 aspect-video rounded-lg object-cover"
+                          src="/images/greece.jpeg"
+                          alt="greece"
                         />
                       </div>
                       <img
                         tabIndex={0}
-                        src="/images/van-gough.jpeg"
-                        alt="boy with blonde hair"
-                        className="ml-6 mt-6 w-48 object-cover h-32 rounded-lg"
+                        src="/images/hamock.jpeg"
+                        className="lg:w-full lg:h-96 object-cover rounded-lg mt-2"
+                        alt="woman"
+                      />
+                      <img
+                        tabIndex={0}
+                        src="/images/golden_gate.jpg"
+                        className="lg:w-full lg:h-60 object-cover rounded-lg mt-2"
+                        alt="golden gate bridge"
                       />
                     </div>
-                  </div>
-                  <div className="mt-6 flex">
-                    <img
-                      tabIndex={0}
-                      className="w-48 h-48 object-cover rounded-lg"
-                      src="/images/beach.jpeg"
-                      alt="beach"
-                    />
-                    <img
-                      tabIndex={0}
-                      className="w-72 h-56 rounded-lg ml-6 object-cover"
-                      src="/images/greece.jpeg"
-                      alt="greece"
-                    />
+                    <div></div>
                   </div>
                 </div>
               </div>
