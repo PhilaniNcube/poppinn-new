@@ -8,8 +8,6 @@ const Navbar = () => {
 
   const router = useRouter();
 
-  console.log(router);
-
   return (
     <nav className="">
       {/*Desktop Nav */}
