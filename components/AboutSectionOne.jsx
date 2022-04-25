@@ -1,4 +1,6 @@
 import React from 'react';
+import Link from 'next/link';
+import { FiFacebook, FiInstagram } from 'react-icons/fi';
 
 const AboutSectionOne = () => {
   return (
@@ -24,6 +26,22 @@ const AboutSectionOne = () => {
         add a personal touch so that the customer feels that all of their needs
         are met.
       </p>
+      <div className="flex justify-center space-x-3 mt-6 text-3xl">
+        <Link
+          href="https://www.instagram.com/popp.inn_"
+          target="_blank"
+          passHref
+        >
+          <FiInstagram className="cursor-pointer" />
+        </Link>
+        <Link
+          href="https://www.facebook.com/PoppInnSouthAfrica"
+          target="_blank"
+          passHref
+        >
+          <FiFacebook className="cursor-pointer" />
+        </Link>
+      </div>
     </div>
   );
 };

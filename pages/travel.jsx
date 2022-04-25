@@ -22,6 +22,7 @@ const Travel = () => {
   const [holidayType, setHolidayType] = useState('');
   const [dreamDestination, setDreamDestination] = useState('');
   const [loading, setLoading] = useState(false);
+  const [consent, setConsent] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -332,6 +333,20 @@ const Travel = () => {
                     }`}
               </style>
             </div>
+          </div>
+
+          <div className="flex flex-col mt-4">
+            <label htmlFor="consent" className="text-xs mb-1">
+              By filling in this form I agree to receive marketing material from
+              Popp Inn.
+            </label>
+            <input
+              type="checkbox"
+              name="consent"
+              required
+              value={consent}
+              onChange={(e) => setConsent(!consent)}
+            />
           </div>
 
           <button
