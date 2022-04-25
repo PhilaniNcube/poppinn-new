@@ -61,11 +61,11 @@ const Slides = () => {
                       alt="black chair and white table"
                       className="object-cover h-full w-full aspect-video"
                     />
-                    <div className="bg-gray-800 bg-opacity-30 flex flex-col items-start justify-center absolute w-full h-full px-12 md:px-24">
-                      <h2 className="text-md sm:text-3xl md:text-4xl lg:text-[6rem] font-montBold  md:leading-4 text-white">
+                    <div className="bg-gray-800 bg-opacity-30 flex flex-col items-start justify-center absolute w-full h-full px-12 md:px-16">
+                      <h2 className="text-md sm:text-3xl md:text-4xl lg:text-[5rem] font-montBold  text-white">
                         Luxury Apartment
                       </h2>
-                      <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5 lg:leading-6 lg:mt-12 text-white">
+                      <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5  lg:mt-12 text-white">
                         Modern luxury apartments with contemporary furniture
                       </h3>
                     </div>
@@ -80,11 +80,11 @@ const Slides = () => {
                       alt="sitting area"
                       className="object-cover h-full w-full aspect-video"
                     />
-                    <div className="bg-gray-800 bg-opacity-30 flex flex-col items-start justify-center absolute w-full h-full px-12 md:px-24">
-                      <h2 className="text-md sm:text-3xl md:text-4xl lg:text-[6rem] font-montBold  md:leading-4 text-white">
+                    <div className="bg-gray-800 bg-opacity-30 flex flex-col items-start justify-center absolute w-full h-full px-12 md:px-16">
+                      <h2 className="text-md sm:text-3xl md:text-4xl lg:text-[5rem] font-montBold   text-white">
                         Comfort and Style
                       </h2>
-                      <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5 lg:leading-6 lg:mt-12 text-white">
+                      <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5  lg:mt-12 text-white">
                         Built for a relaxing stay
                       </h3>
                     </div>
@@ -99,11 +99,11 @@ const Slides = () => {
                       alt="sitting area"
                       className="object-cover h-full w-full aspect-video"
                     />
-                    <div className="bg-gray-800 bg-opacity-30 flex flex-col items-start justify-center absolute w-full h-full px-12 md:px-24">
-                      <h2 className="text-md sm:text-3xl md:text-4xl lg:text-[6rem] font-montBold  md:leading-4 text-white">
+                    <div className="bg-gray-800 bg-opacity-30 flex flex-col items-start justify-center absolute w-full h-full px-12 md:px-16">
+                      <h2 className="text-md sm:text-3xl md:text-4xl lg:text-[5rem] leading-relaxed font-montBold text-white">
                         Comfortable Bedroom
                       </h2>
-                      <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5 lg:leading-6 lg:mt-12 text-white">
+                      <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5  lg:mt-12 text-white">
                         Perfect for a good night&apos;s sleep
                       </h3>
                     </div>
@@ -118,11 +118,11 @@ const Slides = () => {
                       alt="sitting area"
                       className="object-cover h-full w-full aspect-video"
                     />
-                    <div className="bg-gray-800 bg-opacity-30 flex flex-col items-start justify-center absolute w-full h-full px-12 md:px-24">
-                      <h2 className="text-md sm:text-3xl md:text-4xl lg:text-[6rem] font-montBold  md:leading-4 text-white">
+                    <div className="bg-gray-800 bg-opacity-30 flex flex-col items-start justify-center absolute w-full h-full px-12 md:px-16">
+                      <h2 className="text-md sm:text-3xl md:text-4xl lg:text-[5rem] font-montBold   text-white">
                         Fully Equipped Kitchen
                       </h2>
-                      <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5 lg:leading-6 lg:mt-12 text-white">
+                      <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5  lg:mt-12 text-white">
                         All the kitchen appliances and utensils you need for a
                         longer stay
                       </h3>
@@ -138,11 +138,11 @@ const Slides = () => {
                       alt="black chair and white table"
                       className="object-cover h-full w-full aspect-video"
                     />
-                    <div className="bg-gray-800 bg-opacity-40 flex flex-col items-start justify-center absolute w-full h-full px-12 md:px-24">
-                      <h2 className="text-md sm:text-3xl md:text-4xl lg:text-[6rem] font-montBold  md:leading-4 text-white">
+                    <div className="bg-gray-800 bg-opacity-40 flex flex-col items-start justify-center absolute w-full h-full px-12 md:px-16">
+                      <h2 className="text-md sm:text-3xl md:text-4xl lg:text-[5rem] font-montBold   text-white">
                         Full Bathroom
                       </h2>
-                      <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5 lg:leading-6 lg:mt-12 text-white">
+                      <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5  lg:mt-12 text-white">
                         Two bathrooms for convenience
                       </h3>
                     </div>
@@ -157,11 +157,11 @@ const Slides = () => {
                       alt="black chair and white table"
                       className="object-cover h-full w-full aspect-video"
                     />
-                    <div className="bg-gray-800 bg-opacity-30 flex flex-col items-start justify-center absolute w-full h-full px-12 md:px-24">
-                      <h2 className="text-md sm:text-3xl md:text-4xl lg:text-[6rem] font-montBold  md:leading-4 text-white">
+                    <div className="bg-gray-800 bg-opacity-30 flex flex-col items-start justify-center absolute w-full h-full px-12 md:px-16">
+                      <h2 className="text-md sm:text-3xl md:text-4xl lg:text-[5rem] font-montBold   text-white">
                         Located in Bryanston
                       </h2>
-                      <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5 lg:leading-6 lg:mt-12 text-white">
+                      <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5  lg:mt-12 text-white">
                         Great neighbourhood
                       </h3>
                     </div>
@@ -176,11 +176,11 @@ const Slides = () => {
                       alt="black chair and white table"
                       className="object-cover h-full w-full aspect-video"
                     />
-                    <div className="bg-gray-800 bg-opacity-30 flex flex-col items-start justify-center absolute w-full h-full px-12 md:px-24">
-                      <h2 className="text-md sm:text-3xl md:text-4xl lg:text-[6rem] font-montBold  md:leading-4 text-white">
+                    <div className="bg-gray-800 bg-opacity-30 flex flex-col items-start justify-center absolute w-full h-full px-12 md:px-16">
+                      <h2 className="text-md sm:text-3xl md:text-4xl lg:text-[5rem] font-montBold   text-white">
                         Pool
                       </h2>
-                      <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5 lg:leading-6 lg:mt-12 text-white">
+                      <h3 className="text-md md:text-xl lg:text-2xl font-normal leading-5  lg:mt-12 text-white">
                         Pool access
                       </h3>
                     </div>

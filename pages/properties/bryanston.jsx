@@ -252,6 +252,13 @@ const Bryanston = () => {
                 />
               </div>
             </div>
+
+            <button
+              type="submit"
+              className="rounded-lg bg-red-500 py-2 w-full px-4 h-12 text-sm text-white hover:bg-gray-400 mt-4"
+            >
+              Submit
+            </button>
           </form>
         </div>
       </div>
