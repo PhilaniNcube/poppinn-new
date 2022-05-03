@@ -4,7 +4,7 @@ import { FiFacebook, FiInstagram } from 'react-icons/fi';
 
 const AboutSectionOne = () => {
   return (
-    <div className="max-w-7xl mx-auto my-8">
+    <div className="max-w-7xl mx-auto my-8 px-4 lg:px-0">
       <h2 className="font-montBold text-2xl md:text-3xl text-center">
         Who <span className="font-montLight">we are</span>
       </h2>

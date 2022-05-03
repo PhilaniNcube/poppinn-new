@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav className="">
       {/*Desktop Nav */}
       <div className="hidden max-w-7xl mx-auto md:flex md:px-4 lg:px-0 justify-between py-2 items-center">
-        {router.asPath === '/travel' ? (
+        {router.asPath === '/travel' || router.asPath === '/see-you' ? (
           <img
             src="/images/travel.svg"
             alt="Popp Inn"

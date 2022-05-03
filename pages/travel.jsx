@@ -329,7 +329,7 @@ const Travel = () => {
                     }
                     .checkbox:checked + .toggle-label {
                         /* Apply class bg-indigo-700 */
-                        background-color: #4c51bf;
+                        background-color: #00FF00;
                     }`}
               </style>
             </div>
