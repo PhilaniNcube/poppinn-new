@@ -18,9 +18,7 @@ const Table = ({ leads }) => {
                     {`${lead.firstName} ${lead.lastName}`}
                   </p>
                   <div className=" flex space-x-2 text-xs">
-                    <span>
-                      Passport: {lead.internationalTravel ? 'Yes' : 'No'}
-                    </span>
+                    <span>Passport: {lead.passport ? 'Yes' : 'No'}</span>
                   </div>
                 </div>
               </div>
