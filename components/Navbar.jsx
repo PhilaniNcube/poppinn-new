@@ -47,11 +47,19 @@ const Navbar = () => {
 
       {/*Mobile Menu*/}
       <div className="flex md:hidden px-6 py-2 justify-between items-center">
-        <img
-          src="/images/logo.svg"
-          alt="Popp Inn"
-          className="h-16 object-cover"
-        />
+        {router.asPath === '/travel' || router.asPath === '/see-you' ? (
+          <img
+            src="/images/travel.svg"
+            alt="Popp Inn"
+            className="h-20 object-cover"
+          />
+        ) : (
+          <img
+            src="/images/logo.svg"
+            alt="Popp Inn"
+            className="h-20 object-cover"
+          />
+        )}
 
         <button onClick={() => setShow(!show)}>
           {/**Mobile Menu Buttons */}
