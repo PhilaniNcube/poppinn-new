@@ -352,7 +352,7 @@ const Travel = () => {
           <button
             type="submit"
             disabled={loading}
-            className="bg-sky-700 text-white text-base font-montMedium mt-4 px-6 py-2 w-[180px] rounded-md"
+            className="bg-slate-700 text-white text-sm font-montMedium mt-4 px-6 py-2 min-w-[180px] rounded-md"
           >
             {loading ? 'Loading...' : 'Keep Me Posted'}
           </button>
