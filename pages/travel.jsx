@@ -13,8 +13,8 @@ const Travel = () => {
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
   const [cellphone, setCellphone] = useState('');
-  const [gender, setGender] = useState(null);
-  const [age, setAge] = useState(null);
+  const [gender, setGender] = useState('');
+  const [age, setAge] = useState('');
   const [city, setCity] = useState('');
   const [internationalTravel, setInternationalTravel] = useState(false);
   const [passport, setPassport] = useState(false);
