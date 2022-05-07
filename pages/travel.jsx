@@ -230,6 +230,7 @@ const Travel = () => {
                 <option value="">Select gender</option>
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
+                <option value="Rather No Say">Rather No Say</option>
               </select>
             </div>
             <div>
@@ -318,7 +319,7 @@ const Travel = () => {
                 />
                 <label
                   htmlFor="toggle2"
-                  className="toggle-label dark:bg-gray-700 block w-12 h-4 overflow-hidden rounded-full bg-gray-300 cursor-pointer"
+                  className="toggle-label dark:bg-gray-300 block w-12 h-4 overflow-hidden rounded-full bg-gray-300 cursor-pointer"
                 />
               </div>
               {/* Code block ends */}
@@ -329,7 +330,7 @@ const Travel = () => {
                     }
                     .checkbox:checked + .toggle-label {
                         /* Apply class bg-indigo-700 */
-                        background-color: #00FF00;
+                        background-color: rgb(2,132,199);
                     }`}
               </style>
             </div>
@@ -352,7 +353,7 @@ const Travel = () => {
           <button
             type="submit"
             disabled={loading}
-            className="bg-slate-700 text-white text-sm font-montMedium mt-4 px-6 py-2 min-w-[180px] rounded-md"
+            className="bg-sky-600 text-white text-sm font-montMedium mt-4 px-6 py-2 min-w-[180px] rounded-md"
           >
             {loading ? 'Loading...' : 'Keep Me Posted'}
           </button>
