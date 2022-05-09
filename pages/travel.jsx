@@ -100,7 +100,7 @@ const Travel = () => {
                       />
                       <img
                         tabIndex={0}
-                        src="/images/yellow.jpeg"
+                        src="/images/image00013.jpg"
                         className="w-full h-96 object-cover rounded-lg mt-2"
                         alt="woman"
                       />
@@ -137,7 +137,7 @@ const Travel = () => {
       </div>
 
       <div className="max-w-7xl mx-auto mt-24 mb-12">
-        <h3 className="font-montBold text-2xl text-gray-800">
+        <h3 className="font-montBold px-6 lg:px-0 text-2xl text-gray-800">
           {' '}
           Enter your details for exclusive offers
         </h3>
@@ -330,7 +330,7 @@ const Travel = () => {
                     }
                     .checkbox:checked + .toggle-label {
                         /* Apply class bg-indigo-700 */
-                        background-color: rgb(2,132,199);
+                        background-color: #00A1B6;
                     }`}
               </style>
             </div>
@@ -353,7 +353,8 @@ const Travel = () => {
           <button
             type="submit"
             disabled={loading}
-            className="bg-sky-600 text-white text-sm font-montMedium mt-4 px-6 py-2 min-w-[180px] rounded-md"
+            style={{ backgroundColor: '#00A1B6' }}
+            className="text-white text-sm font-montMedium mt-4 px-6 py-2 min-w-[180px] rounded-md"
           >
             {loading ? 'Loading...' : 'Keep Me Posted'}
           </button>
