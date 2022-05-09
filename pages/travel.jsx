@@ -230,7 +230,7 @@ const Travel = () => {
                 <option value="">Select gender</option>
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
-                <option value="Rather No Say">Rather No Say</option>
+                <option value="Rather Not Say">Rather Not Say</option>
               </select>
             </div>
             <div>
