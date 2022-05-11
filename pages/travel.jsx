@@ -122,7 +122,7 @@ const Travel = () => {
                       />
                       <img
                         tabIndex={0}
-                        src="/images/golden_gate.jpg"
+                        src="/images/yellow.jpeg"
                         className="lg:w-full lg:h-60 object-cover rounded-lg mt-2"
                         alt="golden gate bridge"
                       />
